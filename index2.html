@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap" rel="stylesheet">
+    <title>Restaurant Epicure</title>
+</head>
+
+<body>
+    <header>
+        <div id="gauche">
+            <img id="logo" src="logo.jpg"></img>
+            <h3>Epicure</h3>
+        </div>
+        <nav>
+            <a href="#"><span>Accueil</span></a>
+            <a href="#nav_philo"><span>Notre Philosophie</span></a>
+            <a href="#nav_carte"><span>La Carte</span></a>
+            <a href="#nav_info"> <span>Infos Pratiques</span></a>
+        </nav>
+    </header>
+    <main id="main">
+        <h2>Bienvenue au restaurant veggie!</h2>
+    </main>
+
+    <section id="philo">
+        <a name="nav_philo" class="anchor"></a>
+        <h1>Notre Philosophie</h1>
+        <div id="philtext">
+            <img src="chef2.jpg" alt="">
+            <div id="text">
+                <p>Epicure vous propose des plats s'inspirant des cuisines du monde entier pour amener de la bienveillance dans vortre assiette. Notre cuisine s'adapte à la sensibilité de chacun : à votre volonté de réduire votre consommation de viande, de proteger les animaux ou encore de réduire votre impact écologique.</p>
+
+                <p> Cuisiner végétarien ce n’est pas qu’abandonner certains aliments: c’est revoir tout son rapport à la nourriture, redécouvrir certains ingrédients, s’ouvrir aux inspirations des cuisines orientales et asiatiques: indienne, libanaise, japonaise, chinoise; ces cuisine sont riches de recettes qui mettent le végétal au premier plan! </p>
+
+                <p> Tout le travail et le résultat des chefs est basés sur la façon dont nous voyons le monde et la
+                    nourriture,
+                    avec nos propres yeux, nos âmes, nos esprits et nos
+                    coeurs.</p>
+
+                <p> Notre but est de vous faire vivre une experience unique. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="greybg" id="carte">
+        <a name="nav_carte" class="anchor"></a>
+        <h1>La Carte</h1>
+        <div class="menu">
+            <h3>Notre menu du midi à 19 €</h3>
+            <p> Fine salade croquante: soja frais, nouilles chinoises, vinaigraite de coriandre et gingembre</p>
+            <hr>
+            <p>Bouquetière de légumes du jours: asperges vertes grillées à l'huile de truffe</p>
+            <hr>
+            <p> Biscuit chocolat noir, mousse au lait, griotte de chantilly</p>
+        </div>
+        <br> <br>
+        <div class="menu">
+            <h3>Notre menu du soir à 27 €</h3>
+            <p>Poireaux fumés au fromage de chèvre et noix </p>
+            <hr>
+            <p>Raviole de courge butternut au safran </p>
+            <hr>
+            <p> Chou à la crème pâtissière à la vanille bourbon et citron confit</p>
+        </div>
+    </section>
+
+  <section id="imageplat"></section>
+
+    <section id="info">
+        <a name="nav_info" class="anchor"></a>
+        <h1>Infos Pratiques</h1>
+        <div id="horaire">
+            <h3>Horaires d'ouvertures</h3>
+            <hr>
+            <p>Du Lundi au Jeudi : </>12h00-14h30 et 19h00-22h30</p>
+            <p> Du Vendredi au Samedi : 12h00-14h30 et 19h00-23h30</p>
+            <p> Le Dimanche : 11h30-14h30 et 19h00-22h30</p>
+        </div>
+        <div id="adresse">
+            <h3>Adresse</h3>
+            <hr>
+            <p>Notre adresse est le 15 rue Eugénie à Strasbourg</p>
+            <p>Trouvez votre itinéraire sur cette carte :</p>
+    
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2640.384135427785!2d7.757487715608532!3d48.56419107925987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c909442620ed%3A0xcfb72babf6047d5c!2s15%20Rue%20Eug%C3%A9nie%2C%2067100%20Strasbourg!5e0!3m2!1sfr!2sfr!4v1653248031045!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+        </div>
+    </section>
+
+    <section id="contact" class="greybg">
+        <h1>Nous contacter</h1>
+        <div class="input">
+            <label>Votre nom :</label> <br>
+            <input type="text" class="text">
+        </div>
+        <div class="input">
+            <label>Votre email :</label> <br>
+            <input type="email" class="text">
+        </div>
+        <div class="input">
+            <label>Votre message :</label> <br>
+            <textarea name="message" id="message" cols="" rows=""></textarea>
+        </div>
+        <input type="button" id="button" value="Envoyer">
+    </section>
+
+    <footer>
+        <p>©2022 - Restaurant Epicure - Tous droits réservés</p>
+    </footer>
+</body>
+
+</html>

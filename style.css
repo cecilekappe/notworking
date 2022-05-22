@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Baloo 2", cursive;
+  height: 200vh;
+}
+
+header {
+  background-color: rgb(18, 138, 138);
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0px 7px 56px -12px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 7px 56px -12px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 7px 56px -12px rgba(0, 0, 0, 0.58);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav span {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#logo {
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#gauche {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  background-image: url("./restaurant.jpg");
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25x;
+}
+
+main h2 {
+  padding: 15px 35px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+section {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+section h1 {
+  text-align: center;
+  color: rgb(18, 138, 138);
+  font-size: 35px;
+}
+
+#philtext {
+  display: flex;
+  align-items: center;
+  line-height: 33px;
+}
+
+#philtext img {
+  height: 220px;
+  width: 220px;
+  border-radius: 110px;
+  margin-right: 30px;
+}
+
+.greybg {
+  background-color: rgb(230, 222, 222);
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu hr {
+  margin: 20px auto;
+  width: 20%;
+  height: 1px;
+  background-color: rgb(18, 138, 138);
+  border: none;
+}
+
+#imageplat {
+  background-image: url("./restovege.jpeg");
+  height: 270px;
+  background-size: cover;
+  background-position: center;
+}
+
+#info {
+  height: 78vh;
+}
+
+#horaire {
+  float: left;
+}
+
+#adresse {
+  float: right;
+}
+
+#info hr {
+  margin: 0px;
+  width: 20%;
+  height: 3px;
+  background-color: rgb(18, 138, 138);
+  border: none;
+}
+
+.text {
+  width: 100%;
+  height: 25px;
+  border: none;
+}
+
+.input {
+  padding-bottom: 15px;
+}
+
+#message,
+.text {
+  font-size: 15px;
+}
+
+#message {
+  width: 100%;
+  height: 100px;
+  border: none;
+}
+
+#contact label {
+  font-size: 18px;
+}
+
+#button {
+  display: block;
+  margin: auto;
+  padding: 10px 25px;
+  color: white;
+  font-size: 18px;
+  background-color: rgb(18, 138, 138);
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  background-color: rgb(18, 138, 138);
+}
+
+footer p {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.anchor {
+  content: "";
+  display: block;
+  height: 99px;
+  margin: -99px 0 0;
+}
